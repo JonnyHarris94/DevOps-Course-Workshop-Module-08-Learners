@@ -18,7 +18,7 @@ namespace DotnetTemplate.Web
             }
             catch (Exception exception)
             {
-                Log.Fatal(exception, "Application start-up fail");
+                Log.Fatal(exception, "Application start-up failed");
             }
             finally
             {
